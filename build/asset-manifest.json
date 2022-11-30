@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc8087ba.css",
+    "main.js": "/static/js/main.e5cb0ad5.js",
+    "static/media/login.jpg": "/static/media/login.d61860188641bd64474b.jpg",
+    "static/media/BeloHorizonte.jpg": "/static/media/BeloHorizonte.4eb10b6426c4aa497e82.jpg",
+    "static/media/MateusLeme.jpg": "/static/media/MateusLeme.0727e1fe05ca80bde54a.jpg",
+    "static/media/Contagem.png": "/static/media/Contagem.250e0a837eb12b01d9b3.png",
+    "static/media/bg-slide.jpg": "/static/media/bg-slide.f891b5f0a24db33ffe50.jpg",
+    "static/media/3.jpg": "/static/media/3.f29f1b3838e34ad8833f.jpg",
+    "static/media/1.jpg": "/static/media/1.6d7a09c0ea4c873bed6f.jpg",
+    "static/media/2.jpg": "/static/media/2.94722fc17aadd06d961c.jpg",
+    "static/media/plant-house.png": "/static/media/plant-house.aa25b973f381df4951bd.png",
+    "static/media/RibDasNeves.jpeg": "/static/media/RibDasNeves.ad91ad0d0b18aa04f12d.jpeg",
+    "static/media/Betim.jpg": "/static/media/Betim.bfdebdcfd22c953b3b8b.jpg",
+    "static/media/DreamHome.jpeg": "/static/media/DreamHome.e94db8eed38e9a77e981.jpeg",
+    "static/media/1.jpeg": "/static/media/1.336094aa095711eae8ca.jpeg",
+    "static/media/busquelogo.png": "/static/media/busquelogo.118db9b9113d5a9c68e8.png",
+    "static/media/Esmeraldas.jpg": "/static/media/Esmeraldas.1c6fa26dd861a1a7c4e3.jpg",
+    "static/media/wpp.png": "/static/media/wpp.166d9fb897ef93290abd.png",
+    "static/media/user.png": "/static/media/user.a6143582309785dca610.png",
+    "index.html": "/index.html",
+    "main.dc8087ba.css.map": "/static/css/main.dc8087ba.css.map",
+    "main.e5cb0ad5.js.map": "/static/js/main.e5cb0ad5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc8087ba.css",
+    "static/js/main.e5cb0ad5.js"
+  ]
+}
