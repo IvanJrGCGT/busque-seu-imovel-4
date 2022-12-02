@@ -6,20 +6,29 @@ export function HomePage(){
 
      
         const HomePage = styled.div`
-        width: 100vw;
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        width: 100%;
         height: 100vh;
         background: linear-gradient(to top, #00000068 0%, #00000090 50%, #000 100%),url(${Assets.DreamHome});
         background-repeat: no-repeat;
         background-size: cover;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
            
         .start{
-            width: 100vw;
+            width: 100%;
             height: 100vh;
                 display:flex;
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                justify-content: center;
+                justify-content: space-between;
                 .title{
                 color: #ffffff;
                 font-size: 18pt;
@@ -27,24 +36,34 @@ export function HomePage(){
                 align-items: center;
                 justify-content: center;
                 display: flex;
+                margin-top: -300px;
+
 
 
                 }
+                .text{
+                }
                
-            }
+        }
         
-        .recentes{
+        
+        
+        `
+        const Recentes = styled.div`
+        
             width: 100vw;
             height: 100vh;
             display: flex;
             flex-direction: column;
             text-align: center;
             align-items: center;
+            justify-content: center;
             .title{
                 font-size: 18pt;
+                
             }
             .cards{
-                width: 90%;
+                width: 100vw;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -52,14 +71,19 @@ export function HomePage(){
                 align-items: center;
                 justify-content: space-around;
             }
-        }
-        .catalogo{
+        
+        `
+        const Catalogo = styled.div`
+
+
             margin-top: 50px;
             width: 100vw;
             height: 100vh;
             display: flex;
             flex-direction: column;
-            text-align: center;align-items: center;justify-content: center;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
             .title{
                 font-size: 18pt;
             }
@@ -71,23 +95,27 @@ export function HomePage(){
                 justify-content: center;
                 flex-wrap: wrap;
             }
-        }
-        `
         
+        `
     
 
     return(
 
         <>
             <HomePage>
-                <Components.Header />
+                
                 <div className="start">
+                    <Components.Header />
+                    <div className="text">
                     <p className="title">Seu  futuro imóvel  está a poucos cliques <br />
                         de distancia</p>
                     <Components.SrcBar />
+                    </div>
 
                 </div>
-                <div className="recentes">
+                </HomePage>
+
+                <Recentes>
                     <p className="title">
                        Municipios mais procurados
                     </p>
@@ -101,9 +129,9 @@ export function HomePage(){
                         
                     </div>
                     
-                </div>
+                </Recentes>
 
-                <div className="catalogo">
+                <Catalogo>
                         <p className="title">
                             Veja algumas opções
                         </p>
@@ -117,8 +145,8 @@ export function HomePage(){
                         <Components.Card image={Casas.ResPequim[3]}/>
                         <Components.Card image={Casas.ResMataA[2]}/>
                         </div>
-                    </div>
-            </HomePage>
+                        </Catalogo>
+            
    
                 
            

@@ -1,7 +1,7 @@
-import LoginImg from './img/login.jpg'
 import Logo from './img/busquelogo.png'
 import BgSlide from './img/bg-slide.jpg'
 import wpp from './img/wpp.png'
+import LoginImg from './img/login.png'
 
 import DreamHome from './img/DreamHome.jpeg'
 import plantHouse from './img/plant-house.png'

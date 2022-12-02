@@ -1,7 +1,10 @@
+import Dashboard from "./Dashboard";
 import { HomePage } from "./HomePage";
+import  LoginPage  from "./LoginPage";
 
 
 export default {
-    
-    HomePage
+    LoginPage,
+    HomePage,
+    Dashboard
 }
